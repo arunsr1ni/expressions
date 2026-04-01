@@ -8,13 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/expressions/css/style.css" />
 </head>
 <body>
   <div class="grain"></div>
 
   <header class="site-header">
-    <a href="/" class="site-title">Expressions of an Analog Soul</a>
+    <a href="/expressions/" class="site-title">Expressions of an Analog Soul</a>
     <p class="site-tagline">verse from a quieter frequency</p>
   </header>
 
@@ -24,7 +24,7 @@
   <ul class="poem-list">
     
       <li class="poem-list-item">
-        <a href="/poems/hello-world/" class="poem-list-link">
+        <a href="/expressions/poems/hello-world/" class="poem-list-link">
           <span class="poem-list-title">Hello, World</span>
           <time class="poem-list-date" datetime="2026-04-01">
             April 1, 2026
@@ -36,7 +36,7 @@
       </li>
     
       <li class="poem-list-item">
-        <a href="/poems/the-weight-of-the-sun/" class="poem-list-link">
+        <a href="/expressions/poems/the-weight-of-the-sun/" class="poem-list-link">
           <span class="poem-list-title">The Weight of the Sun</span>
           <time class="poem-list-date" datetime="2026-04-01">
             April 1, 2026
@@ -64,7 +64,7 @@
   <script>
   (function(){
     var links = Array.from(document.querySelectorAll('a[href]')).map(function(a){return a.getAttribute('href');});
-    fetch('http://127.0.0.1:7324/ingest/6a389be5-5190-43d6-9c95-f0f8e7592ec6',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'682b5a'},body:JSON.stringify({sessionId:'682b5a',hypothesisId:'H-A,H-C',location:'base.njk:body',message:'page load — url and link hrefs',data:{pageHref:window.location.href,pathname:window.location.pathname,allLinkHrefs:links},timestamp:Date.now()})}).catch(function(){});
+    fetch('http://127.0.0.1:7324/ingest/6a389be5-5190-43d6-9c95-f0f8e7592ec6',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'682b5a'},body:JSON.stringify({sessionId:'682b5a',runId:'post-fix',hypothesisId:'H-A',location:'base.njk:body',message:'post-fix — url and link hrefs',data:{pageHref:window.location.href,pathname:window.location.pathname,allLinkHrefs:links},timestamp:Date.now()})}).catch(function(){});
   })();
   </script>
   <!-- #endregion -->
