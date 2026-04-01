@@ -1,0 +1,50 @@
+---
+layout: base.njk
+---
+
+<article>
+  <header class="poem-header">
+    <h1 class="poem-title">{{ title }}</h1>
+    <time class="poem-date" datetime="{{ page.date | isoDate }}">
+      {{ page.date | readableDate }}
+    </time>
+  </header>
+
+  <hr class="poem-divider" />
+
+  <div class="poem-body">
+    {{ content | safe }}
+  </div>
+</article>
+
+{% set poems = collections.poems %}
+{% set currentIndex = 0 %}
+{% for poem in poems %}
+  {% if poem.url == page.url %}
+    {% set currentIndex = loop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% set prevPoem = poems[currentIndex + 1] %}
+{% set nextPoem = poems[currentIndex - 1] if currentIndex > 0 else null %}
+
+<nav class="poem-nav">
+  <div>
+    {% if prevPoem %}
+      <a href="{{ prevPoem.url }}" class="poem-nav-link">
+        &larr; earlier
+        <span class="poem-nav-label">{{ prevPoem.data.title }}</span>
+      </a>
+    {% endif %}
+  </div>
+  <div>
+    {% if nextPoem %}
+      <a href="{{ nextPoem.url }}" class="poem-nav-link" style="text-align:right;">
+        later &rarr;
+        <span class="poem-nav-label">{{ nextPoem.data.title }}</span>
+      </a>
+    {% endif %}
+  </div>
+</nav>
+
+<a href="/" class="poem-nav-back">&uarr; all poems</a>

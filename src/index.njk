@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: ""
+---
+
+{% if collections.poems.length %}
+  <ul class="poem-list">
+    {% for poem in collections.poems %}
+      <li class="poem-list-item">
+        <a href="{{ poem.url }}" class="poem-list-link">
+          <span class="poem-list-title">{{ poem.data.title }}</span>
+          <time class="poem-list-date" datetime="{{ poem.date | isoDate }}">
+            {{ poem.date | readableDate }}
+          </time>
+          {% if poem.data.excerpt %}
+            <span class="poem-list-excerpt">{{ poem.data.excerpt }}</span>
+          {% endif %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="no-poems">The first poem is coming soon.</p>
+{% endif %}
