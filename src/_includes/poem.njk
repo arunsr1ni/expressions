@@ -31,7 +31,7 @@ layout: base.njk
 <nav class="poem-nav">
   <div>
     {% if prevPoem %}
-      <a href="{{ prevPoem.url }}" class="poem-nav-link">
+      <a href="{{ prevPoem.url | url }}" class="poem-nav-link">
         &larr; earlier
         <span class="poem-nav-label">{{ prevPoem.data.title }}</span>
       </a>
@@ -39,7 +39,7 @@ layout: base.njk
   </div>
   <div>
     {% if nextPoem %}
-      <a href="{{ nextPoem.url }}" class="poem-nav-link" style="text-align:right;">
+      <a href="{{ nextPoem.url | url }}" class="poem-nav-link" style="text-align:right;">
         later &rarr;
         <span class="poem-nav-label">{{ nextPoem.data.title }}</span>
       </a>
@@ -47,4 +47,4 @@ layout: base.njk
   </div>
 </nav>
 
-<a href="/" class="poem-nav-back">&uarr; all poems</a>
+<a href="{{ '/' | url }}" class="poem-nav-back">&uarr; all poems</a>

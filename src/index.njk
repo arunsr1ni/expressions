@@ -7,7 +7,7 @@ title: ""
   <ul class="poem-list">
     {% for poem in collections.poems %}
       <li class="poem-list-item">
-        <a href="{{ poem.url }}" class="poem-list-link">
+        <a href="{{ poem.url | url }}" class="poem-list-link">
           <span class="poem-list-title">{{ poem.data.title }}</span>
           <time class="poem-list-date" datetime="{{ poem.date | isoDate }}">
             {{ poem.date | readableDate }}
