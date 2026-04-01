@@ -95,13 +95,5 @@ It would be a shame to keep running.</p>
       <span class="footer-location">Earth</span>
     </p>
   </footer>
-  <!-- #region agent log -->
-  <script>
-  (function(){
-    var links = Array.from(document.querySelectorAll('a[href]')).map(function(a){return a.getAttribute('href');});
-    fetch('http://127.0.0.1:7324/ingest/6a389be5-5190-43d6-9c95-f0f8e7592ec6',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'682b5a'},body:JSON.stringify({sessionId:'682b5a',runId:'post-fix',hypothesisId:'H-A',location:'base.njk:body',message:'post-fix — url and link hrefs',data:{pageHref:window.location.href,pathname:window.location.pathname,allLinkHrefs:links},timestamp:Date.now()})}).catch(function(){});
-  })();
-  </script>
-  <!-- #endregion -->
 </body>
 </html>
