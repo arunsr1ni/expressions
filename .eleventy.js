@@ -30,6 +30,16 @@ module.exports = function (eleventyConfig) {
     return new Date().getFullYear();
   });
 
+  // Split multi-paragraph text into <p> tags
+  eleventyConfig.addFilter("paragraphs", (text) => {
+    if (!text) return "";
+    return text
+      .trim()
+      .split(/\n\s*\n/)
+      .map((p) => `<p class="poem-synopsis-text">${p.trim().replace(/\n/g, " ")}</p>`)
+      .join("\n");
+  });
+
   return {
     pathPrefix: "/expressions/",
     dir: {

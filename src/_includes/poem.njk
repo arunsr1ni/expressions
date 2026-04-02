@@ -20,7 +20,7 @@ layout: base.njk
 {% if synopsis %}
 <aside class="poem-synopsis">
   <span class="poem-synopsis-label">Poet's Note</span>
-  <p class="poem-synopsis-text">{{ synopsis }}</p>
+  {{ synopsis | paragraphs | safe }}
 </aside>
 {% endif %}
 
