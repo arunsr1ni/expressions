@@ -346,7 +346,11 @@ body {
   font-style: italic;
   line-height: 1.8;
   color: var(--ink-light);
-  white-space: pre-line;
+  margin-bottom: 0.75rem;
+}
+
+.poem-synopsis-text:last-child {
+  margin-bottom: 0;
 }
 
 /* ── Comments / Reflections ────────────────────────────────── */
