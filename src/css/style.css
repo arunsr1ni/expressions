@@ -346,6 +346,7 @@ body {
   font-style: italic;
   line-height: 1.8;
   color: var(--ink-light);
+  white-space: pre-line;
 }
 
 /* ── Comments / Reflections ────────────────────────────────── */
