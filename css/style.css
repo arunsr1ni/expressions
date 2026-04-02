@@ -320,6 +320,34 @@ body {
   opacity: 0.5;
 }
 
+/* ── Poet's Note / Synopsis ─────────────────────────────────── */
+
+.poem-synopsis {
+  border-left: 1px solid var(--sepia-pale);
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  margin: 0 0 3rem;
+}
+
+.poem-synopsis-label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--sepia);
+  margin-bottom: 0.6rem;
+}
+
+.poem-synopsis-text {
+  font-family: var(--font-serif);
+  font-size: 0.88rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.8;
+  color: var(--ink-light);
+}
+
 /* ── Comments / Reflections ────────────────────────────────── */
 
 .comments-section {
