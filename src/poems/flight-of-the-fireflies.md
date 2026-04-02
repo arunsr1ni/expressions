@@ -1,48 +1,47 @@
 ---
 title: "Flight of the Fireflies"
 date: 2026-04-02
-excerpt: "They are knitting the night with needle-points of gold."
+excerpt: "They are weaving their gold-wire signatures through the ruin."
 layout: poem.njk
 ---
 
-I am the gulp. The gap. The great, unmade Grave.
-I am the ink-lung breathing, the black-box of the Been.
-Watch me swallow the spark. Watch me hold the bloom.
+I am the dark. The wide, quiet throat
+that swallows the day. I watch the light happen to you—
+a frantic, gold braille scratched against my skin.
 
-First: the hoist. The heave. The hush of heavy grace.
-Pulley-palms winching her high 'til the hollow world let go.
-A voice spoke her name—a satin stitch—the only thread I held.
-Then: the flit, the flick, the volt-lit gods
-sliding through the silk-wicker of her ribs,
-charting the char and the bloom.
+It began as a lifting.
+Hands like pulleys, winching her high
+until the earth let go. A voice spoke her name
+like a secret—the only sound I had to hold.
+Then, the first flight: tiny, volt-lit gods
+zigzagging through the wicker of her ribs,
+mapping the heat of becoming.
 
-Next: the hip-snap. The counter-clack. The clock's cold tick.
-Three a.m. is a thief-light, a kitchen-thrum, a salt-lick.
-Mouth to the collarbone's cup—a pulse, a pause, a prayer.
-They traded breath like burning bread.
-And the fireflies? They skittered on the glass,
-beating the pane, begging for the bed-heat,
-writing their wanton will in the dark.
+I watched the light thicken.
+The kitchen at 3 a.m., a sanctuary of stolen glow.
+Hip to counter. Mouth to the salt of a collarbone.
+They moved like a fever in the dark,
+their pulses mimicking the fireflies outside the glass—
+brief, wet sparks of here, I am here, I am here.
 
-Then: the unzipping. The unmaking. The ugly, urgent heat.
-The world is stripping—shedding her emerald shifts.
-The horizon unbuckles a seam of fever and flame.
-The ocean peels back her blue skin to reveal the bone-bleach beneath—
-a white-ribbed ghost, violated, void of its neon velvet.
-The river is a gagged throat, choking on a silt-black tongue.
-It is a cruel coil, a lust for liquid ruin.
-The ice—the great, cold sheet—slides off the mountain's shoulder,
-leaving the earth naked and shuddering in the shallows.
-I am the dark that drinks the drift.
+But the world began to unmake.
+The reef turned to bone in the mouth of the tide.
+The forest stripped off its emerald,
+burning down to a red, gasping throat.
+The ice—a great, cold sheet—slid off the mountain's shoulder,
+leaving the earth naked and shuddering.
+I am the silence where the name used to be.
 
-But look: the spark-spit! The flicker-fat!
-In the wrack and the wretch, they still rise.
-Stupid with the sting of hunger.
-Buzzing for the burn, the blood-bright blitz.
-They don't see the void. They don't fear the fall.
-They are knitting the night with needle-points of gold.
-Not for the world. Not for the end.
+But look—
+against my own ribs, the fireflies still rise.
+They do not know the reef is ash.
+They do not care that the ice is a ghost.
+They are stupid with hunger,
+weaving their gold-wire signatures through the ruin.
+Burning for each other—
+not for the world,
+not for the end.
 
-Just the flight.
+Just for the flight.
 The fever.
 The find.
