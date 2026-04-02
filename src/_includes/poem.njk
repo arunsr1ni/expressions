@@ -17,6 +17,55 @@ layout: base.njk
   </div>
 </article>
 
+{% set poemSlug = page.fileSlug %}
+{% set poemComments = comments[poemSlug] %}
+
+<section class="comments-section">
+  <div class="comments-header">
+    <hr class="comments-divider" />
+    <h2 class="comments-title">Reflections</h2>
+  </div>
+
+  <ul class="comment-list" id="comment-list">
+    {% if poemComments and poemComments.length %}
+      {% for c in poemComments %}
+        <li class="comment-item">
+          <blockquote class="comment-text">{{ c.text }}</blockquote>
+          <footer class="comment-meta">
+            <span class="comment-name">&mdash; {{ c.name }}</span>
+            <time class="comment-date">{{ c.date | readableDate }}</time>
+          </footer>
+        </li>
+      {% endfor %}
+    {% else %}
+      <p class="comments-empty" id="comments-empty">Be the first to leave a reflection.</p>
+    {% endif %}
+  </ul>
+
+  <form class="comment-form" id="comment-form" data-slug="{{ poemSlug }}">
+    <div class="comment-form-fields">
+      <input
+        type="text"
+        name="comment-name"
+        class="comment-input"
+        placeholder="Your name"
+        autocomplete="off"
+        required
+      />
+      <textarea
+        name="comment-text"
+        class="comment-textarea"
+        placeholder="Leave a reflection&hellip;"
+        rows="3"
+        required
+      ></textarea>
+    </div>
+    <div class="comment-form-footer">
+      <button type="submit" class="comment-submit">post</button>
+    </div>
+  </form>
+</section>
+
 {% set poems = collections.poems %}
 {% set currentIndex = 0 %}
 {% for poem in poems %}
