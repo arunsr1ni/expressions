@@ -320,6 +320,21 @@ body {
   opacity: 0.5;
 }
 
+.footer-rss {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--sepia);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-rss:hover {
+  color: var(--ink);
+}
+
 /* ── Poet's Note / Synopsis ─────────────────────────────────── */
 
 .poem-synopsis {
