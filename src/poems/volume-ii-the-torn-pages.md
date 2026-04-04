@@ -1,6 +1,6 @@
 ---
 title: "Volume II — The Torn Pages"
-date: 2026-04-03
+date: 2026-04-04
 excerpt: "The want—that vulgar, enormous engine—has not died; it just fits quieter amplitudes."
 layout: poem.njk
 ---
