@@ -9,8 +9,8 @@ I wanted to stand before ten thousand
 in a phosphorescent dark, striking a riff
 so heavy the firmament forgot its footing.
 Not for fame, but for the communion—
-every stranger choosing the same beautiful sound,
-the same glorious and voluntary deafness.
+to annihilate the silence with one sound,
+that same glorious and voluntary deafness.
 
 I wanted to construct the interstellar warp drive.
 Not for the elite to buy orbits for vanity.
