@@ -1,6 +1,6 @@
 ---
 title: "Hello, World"
-date: 2026-04-01
+date: 2026-03-31
 excerpt: "somewhere between signal and silence, I began."
 layout: poem.njk
 ---
