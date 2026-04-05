@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Expressions of an Analog Soul</title>
   <subtitle>verse from a quieter frequency</subtitle>
-  <link href="https://arunsr1ni.github.io/expressions/feed.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://arunsr1ni.github.io/expressions/" rel="alternate" type="text/html"/>
-  <id>https://arunsr1ni.github.io/expressions/</id>
+  <link href="https://retrophile.blog/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://retrophile.blog/" rel="alternate" type="text/html"/>
+  <id>https://retrophile.blog/</id>
   <updated>2026-04-05T00:00:00Z</updated>
   <author>
     <name>Expressions of an Analog Soul</name>
-    <uri>https://arunsr1ni.github.io/expressions/</uri>
+    <uri>https://retrophile.blog/</uri>
   </author>
   <entry>
     <title>Fleece</title>
-    <link href="https://arunsr1ni.github.io/poems/fleece/" rel="alternate" type="text/html"/>
-    <id>https://arunsr1ni.github.io/poems/fleece/</id>
+    <link href="https://retrophile.blog/poems/fleece/" rel="alternate" type="text/html"/>
+    <id>https://retrophile.blog/poems/fleece/</id>
     <published>2026-04-05T00:00:00Z</published>
     <updated>2026-04-05T00:00:00Z</updated>
     <summary>The ventriloquist so devoted to the act he&#39;s forgotten he is speaking.</summary>
@@ -45,8 +45,8 @@ and called it a map to somewhere grand.</p>
   </entry>
   <entry>
     <title>Volume II — The Torn Pages</title>
-    <link href="https://arunsr1ni.github.io/poems/volume-ii-the-torn-pages/" rel="alternate" type="text/html"/>
-    <id>https://arunsr1ni.github.io/poems/volume-ii-the-torn-pages/</id>
+    <link href="https://retrophile.blog/poems/volume-ii-the-torn-pages/" rel="alternate" type="text/html"/>
+    <id>https://retrophile.blog/poems/volume-ii-the-torn-pages/</id>
     <published>2026-04-04T00:00:00Z</published>
     <updated>2026-04-04T00:00:00Z</updated>
     <summary>The want—that vulgar, enormous engine—has not died; it just fits quieter amplitudes.</summary>
@@ -103,8 +103,8 @@ that never held the privilege of a choice.</p>
   </entry>
   <entry>
     <title>Volume I — The Worn Pages</title>
-    <link href="https://arunsr1ni.github.io/poems/volume-i-the-worn-pages/" rel="alternate" type="text/html"/>
-    <id>https://arunsr1ni.github.io/poems/volume-i-the-worn-pages/</id>
+    <link href="https://retrophile.blog/poems/volume-i-the-worn-pages/" rel="alternate" type="text/html"/>
+    <id>https://retrophile.blog/poems/volume-i-the-worn-pages/</id>
     <published>2026-04-03T00:00:00Z</published>
     <updated>2026-04-03T00:00:00Z</updated>
     <summary>I learned the dialect of my own heart in a country that owed me nothing.</summary>
@@ -181,8 +181,8 @@ in a country that owed me nothing.</p>
   </entry>
   <entry>
     <title>Flight of the Fireflies</title>
-    <link href="https://arunsr1ni.github.io/poems/flight-of-the-fireflies/" rel="alternate" type="text/html"/>
-    <id>https://arunsr1ni.github.io/poems/flight-of-the-fireflies/</id>
+    <link href="https://retrophile.blog/poems/flight-of-the-fireflies/" rel="alternate" type="text/html"/>
+    <id>https://retrophile.blog/poems/flight-of-the-fireflies/</id>
     <published>2026-04-02T00:00:00Z</published>
     <updated>2026-04-02T00:00:00Z</updated>
     <summary>They are weaving their gold-wire signatures through the ruin.</summary>
@@ -225,8 +225,8 @@ The find.</p>
   </entry>
   <entry>
     <title>Hello, World</title>
-    <link href="https://arunsr1ni.github.io/poems/hello-world/" rel="alternate" type="text/html"/>
-    <id>https://arunsr1ni.github.io/poems/hello-world/</id>
+    <link href="https://retrophile.blog/poems/hello-world/" rel="alternate" type="text/html"/>
+    <id>https://retrophile.blog/poems/hello-world/</id>
     <published>2026-04-01T00:00:00Z</published>
     <updated>2026-04-01T00:00:00Z</updated>
     <summary>somewhere between signal and silence, I began.</summary>
@@ -247,8 +247,8 @@ to hear.</p>
   </entry>
   <entry>
     <title>The Weight of the Sun</title>
-    <link href="https://arunsr1ni.github.io/poems/the-weight-of-the-sun/" rel="alternate" type="text/html"/>
-    <id>https://arunsr1ni.github.io/poems/the-weight-of-the-sun/</id>
+    <link href="https://retrophile.blog/poems/the-weight-of-the-sun/" rel="alternate" type="text/html"/>
+    <id>https://retrophile.blog/poems/the-weight-of-the-sun/</id>
     <published>2026-04-01T00:00:00Z</published>
     <updated>2026-04-01T00:00:00Z</updated>
     <summary>The world isn&#39;t a race to be won; it&#39;s a texture to be felt.</summary>
