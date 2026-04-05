@@ -13,7 +13,7 @@
  *   COMMENTS_PATH — e.g. "src/_data/comments.json"
  */
 
-const ALLOWED_ORIGIN = 'https://arunsr1ni.github.io';
+const ALLOWED_ORIGIN = 'https://retrophile.blog';
 
 export default {
   async fetch(request, env) {

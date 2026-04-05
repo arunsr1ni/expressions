@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
-    pathPrefix: "/expressions/",
+    pathPrefix: "/",
     dir: {
       input: "src",
       output: "_site",
