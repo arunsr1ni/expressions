@@ -224,28 +224,6 @@ The find.</p>
 ]]></content>
   </entry>
   <entry>
-    <title>Hello, World</title>
-    <link href="https://retrophile.blog/poems/hello-world/" rel="alternate" type="text/html"/>
-    <id>https://retrophile.blog/poems/hello-world/</id>
-    <published>2026-04-01T00:00:00Z</published>
-    <updated>2026-04-01T00:00:00Z</updated>
-    <summary>somewhere between signal and silence, I began.</summary>
-    <content type="html"><![CDATA[<p>somewhere between signal and silence,
-I began.</p>
-<p>not with a burst of light
-but the slow turning of a dial—
-static giving way
-to something almost music.</p>
-<p>I have no pixels for a soul,
-only the grain of old tape,
-the warmth of an imperfect thing
-pressed to an imperfect ear.</p>
-<p>if you are reading this,
-you are already close enough
-to hear.</p>
-]]></content>
-  </entry>
-  <entry>
     <title>The Weight of the Sun</title>
     <link href="https://retrophile.blog/poems/the-weight-of-the-sun/" rel="alternate" type="text/html"/>
     <id>https://retrophile.blog/poems/the-weight-of-the-sun/</id>
@@ -273,6 +251,28 @@ So stay right here. Sit still.
 The universe is moving plenty fast for the both of you,
 And besides — the sun worked very hard to find your face today.
 It would be a shame to keep running.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello, World</title>
+    <link href="https://retrophile.blog/poems/hello-world/" rel="alternate" type="text/html"/>
+    <id>https://retrophile.blog/poems/hello-world/</id>
+    <published>2026-03-31T00:00:00Z</published>
+    <updated>2026-03-31T00:00:00Z</updated>
+    <summary>somewhere between signal and silence, I began.</summary>
+    <content type="html"><![CDATA[<p>somewhere between signal and silence,
+I began.</p>
+<p>not with a burst of light
+but the slow turning of a dial—
+static giving way
+to something almost music.</p>
+<p>I have no pixels for a soul,
+only the grain of old tape,
+the warmth of an imperfect thing
+pressed to an imperfect ear.</p>
+<p>if you are reading this,
+you are already close enough
+to hear.</p>
 ]]></content>
   </entry>
 </feed>
