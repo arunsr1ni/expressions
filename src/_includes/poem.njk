@@ -12,6 +12,12 @@ layout: base.njk
 
   <hr class="poem-divider" />
 
+  {% if image %}
+  <figure class="poem-figure">
+    <img src="{{ image | url }}" alt="{{ imageAlt or title }}" class="poem-image" />
+  </figure>
+  {% endif %}
+
   <div class="poem-body">
     {{ content | safe }}
   </div>

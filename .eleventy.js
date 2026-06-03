@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
   // Pass CSS and JS through as-is
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/images");
 
   // Poems collection sorted newest-first
   eleventyConfig.addCollection("poems", function (collectionApi) {
