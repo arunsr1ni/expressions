@@ -224,6 +224,18 @@ body {
   margin-bottom: 1.5rem;
 }
 
+/* Illustration accompanying a poem */
+.poem-figure {
+  margin: 0 0 2.25rem;
+}
+
+.poem-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
 /* ── Essay body ─────────────────────────────────────────────── */
 
 .essay-body {
