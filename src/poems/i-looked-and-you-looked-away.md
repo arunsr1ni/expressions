@@ -3,8 +3,8 @@ title: "I Looked, and You Looked Away"
 date: 2026-06-02
 excerpt: "I sit with grief and let it speak, you bolt the door and call it strength."
 layout: poem.njk
-image: "/images/i-looked-and-you-looked-away.svg"
-imageAlt: "An open figure seated under a sunrise welcomes rain, a butterfly, and a cockroach, while a hunched figure kneels behind a bolted door."
+image: "/images/embrace_all_of_life_poem_illustration.svg"
+imageAlt: "A silhouetted figure stands with arms open before a layered sunrise sky, flanked by a butterfly and cockroach rendered with equal beauty, with rain falling gently and a deer on distant hills."
 ---
 
 I looked, and you looked away.
